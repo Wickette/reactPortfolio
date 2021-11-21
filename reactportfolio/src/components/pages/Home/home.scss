@@ -1,3 +1,5 @@
+@import "../../../global.scss";
+
 .home {
   height: 100vh;
   display: flex;
@@ -6,6 +8,7 @@
   justify-content: center;
 
   .container {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,12 +17,12 @@
     font-weight: 900;
 
     .nine h1 {
-        text-align:center; font-size:50px; text-transform:uppercase; color:black; letter-spacing:1px;
+        text-align:center; font-size:100px; text-transform:uppercase; color: $laurel-green; letter-spacing:1px;
         font-family:"Playfair Display", serif; font-weight:400;
       }
       .nine h1 span {
         margin-top: 5px;
-          font-size:15px; color:black; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+          font-size:15px; color:$laurel-green; word-spacing:1px; font-weight:normal; letter-spacing:2px;
           text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
       
           display: grid;
@@ -32,8 +35,8 @@
       .nine h1 span:after,.nine h1 span:before {
           content: " ";
           display: block;
-          border-bottom: 1px solid #A3731A;
-          border-top: 1px solid #A3731A;
+          border-bottom: 1px solid $dark-jungle-green;
+          border-top: 1px solid $dark-jungle-green;
           height: 5px;
         background-color: transparent;
       }
@@ -49,7 +52,7 @@
         font-size: 25px;
         width: 8em;
         height: 2em;
-        color: orange;
+        color: $laurel-green;
         border-left: 0.08em solid;
         position: relative;
         margin-top: 0.8em;
@@ -81,7 +84,7 @@
         top: -10%;
         box-sizing: border-box;
         border: 0.08em solid;
-        background-color: #333;
+        background-color: $onyx;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -89,6 +92,10 @@
         text-transform: capitalize;
         transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
         transition: 0.3s;
+        a{
+          text-decoration: none;
+          color: $laurel-green;
+        }
       }
       .btn:hover span {
         transform: translateX(0.15em);
@@ -97,13 +104,13 @@
   }
 }
 .show_bg {
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 10%,
-      rgba(0, 0, 0, 0) 60%,
-      rgba(211, 164, 11, 0.87) 100%
-    ),
-    url("../../../assets/wallpaper.png") no-repeat center center fixed;
+  background: url("../../../assets/wallpaper.png") no-repeat center center fixed;
   background-size: cover;
-  opacity: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  opacity: 20%;
 }

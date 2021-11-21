@@ -1,4 +1,41 @@
+@import "../../../global.scss";
+
 .intro{
-    background-color:black;
-    // margin-top: 100px;
+    padding: 100px;
+    background: $manatee;
+    height: 100vh;
 }
+
+#profile{
+    background: $onyx;
+    h1, p {
+        color: $laurel-green;
+    }
+    border-color: $laurel-green;
+    .icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        a{
+            color: $laurel-green;
+            padding: 20px;
+        }
+        a:hover{
+            color: $dark-jungle-green;
+        }
+    }
+}
+
+.title_line{
+    color: $dark-jungle-green;
+}
+.cat_box{
+    background-color: $onyx;
+    color: $laurel-green;
+    opacity: 60%;
+}
+.cat_box img:hover{
+    opacity: 2;
+}
+
