@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.6aed84b2.chunk.css",
+    "main.css": "/reactportfolio/static/css/main.b7f013ab.chunk.css",
     "main.js": "/reactportfolio/static/js/main.7278dd24.chunk.js",
     "main.js.map": "/reactportfolio/static/js/main.7278dd24.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.177e35b8.js",
@@ -10,7 +10,7 @@
     "static/js/2.ec26d564.chunk.js.map": "/reactportfolio/static/js/2.ec26d564.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
     "static/css/2.d0003c18.chunk.css.map": "/reactportfolio/static/css/2.d0003c18.chunk.css.map",
-    "static/css/main.6aed84b2.chunk.css.map": "/reactportfolio/static/css/main.6aed84b2.chunk.css.map",
+    "static/css/main.b7f013ab.chunk.css.map": "/reactportfolio/static/css/main.b7f013ab.chunk.css.map",
     "static/js/2.ec26d564.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.ec26d564.chunk.js.LICENSE.txt",
     "static/media/Muscles&Meals.5ee2969e.PNG": "/reactportfolio/static/media/Muscles&Meals.5ee2969e.PNG",
     "static/media/Steph_Resume_FullStack.dd3d2c41.pdf": "/reactportfolio/static/media/Steph_Resume_FullStack.dd3d2c41.pdf",
@@ -22,14 +22,14 @@
     "static/media/noteTaker.e423bee7.PNG": "/reactportfolio/static/media/noteTaker.e423bee7.PNG",
     "static/media/rin.b22b5060.jpg": "/reactportfolio/static/media/rin.b22b5060.jpg",
     "static/media/stephanie.1acfab60.jpg": "/reactportfolio/static/media/stephanie.1acfab60.jpg",
-    "static/media/home.scss": "/reactportfolio/static/media/wallpaper.90f63212.PNG",
+    "static/media/home.scss": "/reactportfolio/static/media/wallpaper.90f63212.png",
     "static/media/work-dayScheduler.86f48e19.png": "/reactportfolio/static/media/work-dayScheduler.86f48e19.png"
   },
   "entrypoints": [
     "static/js/runtime-main.177e35b8.js",
     "static/css/2.d0003c18.chunk.css",
     "static/js/2.ec26d564.chunk.js",
-    "static/css/main.6aed84b2.chunk.css",
+    "static/css/main.b7f013ab.chunk.css",
     "static/js/main.7278dd24.chunk.js"
   ]
 }
