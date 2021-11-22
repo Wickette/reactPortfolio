@@ -7,7 +7,7 @@ const NavTabs = ({menuOpen, setMenuOpen}) => {
     <div className={"nav " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <Link to="/" className="logo">Welcome.</Link>
+          <Link to="/reactportfolio" className="logo">Welcome.</Link>
           <div className="itemContainer">
           </div>
         </div>

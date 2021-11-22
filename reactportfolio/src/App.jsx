@@ -18,7 +18,7 @@ export default function PortfolioContainer() {
         <NavTabs menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <div className="sections">
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/reactportfolio" component={Home}/>
             <Route exact path="/about" component={Intro}/>
             <Route exact path="/projects" component={Portfolio}/>
             <Route exact path="/contact" component={Contact}/>

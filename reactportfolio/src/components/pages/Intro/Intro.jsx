@@ -1,9 +1,9 @@
 import React from "react";
 import "./intro.scss";
 import profilePic from "../../../images/stephanie.jpg";
-import kai from "../../../images/Kai.jpg"
-import rin from "../../../images/Rin.jpg"
-import jynx from "../../../images/Jynx.jpg"
+import kai from "../../../images/kai.jpg"
+import rin from "../../../images/rin.jpg"
+import jynx from "../../../images/jynx.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 

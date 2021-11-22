@@ -9,7 +9,7 @@ const Menu = ({menuOpen, setMenuOpen}) => {
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <Link to="/">Home</Link>
+                    <Link to="/reactportfolio">Home</Link>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <Link to="/about">About</Link>
