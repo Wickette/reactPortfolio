@@ -6,13 +6,15 @@ import Intro from './components/pages/Intro/Intro';
 import Portfolio from './components/pages/Portfolio/Portfolio';
 import Contact from './components/pages/Contact/Contact';
 import Menu from "./components/Menu/Menu"
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Footer from "./components/Footer/Footer"
 
 
 export default function PortfolioContainer() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <Router>
-      <div className="portfolioContainer">
+      <CssBaseline>
         <NavTabs menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <div className="sections">
@@ -21,7 +23,8 @@ export default function PortfolioContainer() {
             <Route exact path="/projects" component={Portfolio}/>
             <Route exact path="/contact" component={Contact}/>
         </div>
-      </div>
+        <Footer/>
+      </CssBaseline>
     </Router>
   )
 }

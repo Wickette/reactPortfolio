@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.scss";
-import resume from "../../../assets/Steph_Resume_FullStack.pdf";
+import resume from "../../../images/Steph_Resume_FullStack.pdf";
 
 const Home = () => {
   return (
